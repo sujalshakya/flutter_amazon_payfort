@@ -29,6 +29,8 @@ apply plugin: 'kotlin-android'
 android {
     compileSdkVersion 34
 
+    namespace 'com.vvvirani.amazon_payfort'
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
